@@ -32,9 +32,3 @@ Server-client aplication with web interface for schedule tasks.
           -p port(default is 8080)
   5. To access web site use http://localhost 
     5.1 password 'admin'
-
-Feedback
-  Task take more that expected 10 hours. 
-  Wink don't have client for 64 bit linux os.
-  Please, contact me by email denis@savchuk.space in case of any problem with runing application or any questions
-  Make also odt format. Don't use Microsoft office.
