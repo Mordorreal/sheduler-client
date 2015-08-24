@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    daemons (1.2.3)
+    em-websocket-client (0.1.2)
+      eventmachine
+      websocket
+    eventmachine (1.0.8)
+    websocket (1.2.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  daemons
+  em-websocket-client
+
+BUNDLED WITH
+   1.10.6
