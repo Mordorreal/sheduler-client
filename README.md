@@ -1,6 +1,6 @@
-# sheduler-client
-Server-client aplication with web interface for schedule tasks.<br>
-Server app https://github.com/Mordorreal/sheduler-server<br>
+# sheduler-server
+Server-client aplication with web interface for schedule tasks. <br>
+Client app https://github.com/Mordorreal/sheduler-client<br>
 
 1.0 Install Docker and docker-compose<br>
   1.1 http://docs.docker.com/installation/<br>
@@ -27,9 +27,11 @@ Server app https://github.com/Mordorreal/sheduler-server<br>
     3.1 stop by<br>
       ctrl+c or docker-compose stop<br>
   4.0 Move to sheduler-client folder in console<br>
-    4.1 run in console to start as daemon<br>
+    4.1 you need to install ruby and gem bundler
+    4.1 run bundler install
+    4.2 run in console to start as daemon<br>
       ruby app/client.rb -i 0.0.0.0 -p 8080<br>
-      4.2 -i is ip address to server<br>
+      4.2.1 -i is ip address to server<br>
           -p port(default is 8080)<br>
   5.0 To access web site use http://localhost <br>
     5.1 password 'admin'<br>
